@@ -27,6 +27,10 @@
   footer{background:var(--navy);color:#9fb0c6;font-size:.88rem;padding:28px 0}
   footer a{color:#cfd8e6}
   @media print{header,footer{display:none}body{font-size:12pt}main{padding:0}}
+  .foot{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+  .cert{display:flex;align-items:center;gap:14px;color:#cfd8e6;font-size:.84rem;line-height:1.5}
+  .cert img{width:58px;height:auto;display:block;border-radius:2px}
+  .cert b{color:#fff;letter-spacing:.03em}
 </style>
 </head>
 <body>
@@ -82,7 +86,8 @@
 </main>
 
 <footer>
-  <div class="wrap">© 2026 Benchmark Aerial Thermography LLC · <a href="index.html">Home</a></div>
+  <div class="wrap foot"><div>© 2026 Benchmark Aerial Thermography LLC · <a href="index.html">Home</a></div>
+    <div class="cert"><img src="badge-sba-vosb.png" width="58" height="72" alt="SBA Veteran-Owned Certified"><div><b>SBA-Certified SDVOSB</b><br>CAGE 25T55 · UEI LWQQGMXBZN18</div></div></div>
 </footer>
 </body>
 </html>
